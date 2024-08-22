@@ -23,7 +23,7 @@
 
       <v-spacer></v-spacer>
       <v-btn style="cursor: unset" text color="primary">
-        <span right>12345678{{ pos_profile.name }}</span>
+        <span right>{{ pos_profile.name }}</span>
       </v-btn>
       <div class="text-center">
         <v-menu offset-y>
